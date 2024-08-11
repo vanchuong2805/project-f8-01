@@ -179,6 +179,19 @@ a {
     align-items: center;
 }
 
+.clients .images a {
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 90px;
+    border-radius: 12px;
+
+}
+
+.clients .images a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 .guides {
     margin-top: 40px;
     padding: 79px 0;
