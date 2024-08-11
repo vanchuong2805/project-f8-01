@@ -9,6 +9,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -60,10 +61,12 @@ a {
 }
 
 /* Header */
-.header {
+.hero {
     position: relative;
+    display: flex;
+    align-items: center;
     background-color: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px)
 }
 
 .header-sticky {
@@ -79,6 +82,7 @@ a {
     align-items: center;
     padding: 12px 0;
 }
+
 
 .navbar ul {
     display: flex;
@@ -111,9 +115,6 @@ a {
     margin-left: 18px;
 }
 
-.hero {
-    padding-top: 130px;
-}
 
 .hero .info {
     width: 50.36%;

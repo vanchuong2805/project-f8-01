@@ -11,46 +11,47 @@
 </head>
 
 <body>
-    <main>
-        <!-- header -->
-        <header class="header-sticky">
-            <div class="content">
-                <nav class="navbar">
-                    <!-- Logo -->
+
+    <!-- header -->
+    <header class="header-sticky">
+        <div class="content">
+            <nav class="navbar">
+                <!-- Logo -->
+                <a href="#">
                     <img src="./assets/img/Logo.svg" alt="Besnik.">
-                    <!-- Nav -->
-                    <ul>
-                        <li><a href="#!">Home</a></li>
-                        <li><a href="#!">Features</a></li>
-                        <li><a href="#!">Services</a></li>
-                        <li><a href="#!">Resources</a></li>
-                        <li><a href="#!">Contact</a></li>
-                    </ul>
-                    <!-- Action -->
-                    <div class="action">
-                        <a href="#!" class="action-link">Sign in</a><a href="#!" class="btn action-btn">Sign up</a>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <header class="header">
-            <div class="content">
-                <div class="hero">
-                    <div class="info">
-                        <p class="sub-title">Welcome to Besnik Agency</p>
-                        <h1 class="title">Discover a place you'll love to live.</h1>
-                        <p class="desc">Get the best real estate deals first, before they hit the mass market! HOT
-                            FORECLOSURE DEALS with one simple search</p>
-                        <!-- Call to action -->
-                        <a href="#!" class="btn cta">More About Us</a>
-                    </div>
-                    <img src="./assets/img/house illustrationhero-img.svg" alt="Discover a place you'll love to live."
-                        class="hero-img">
+                </a>
+                <!-- Nav -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#clients">Services</a></li>
+                    <li><a href="#featured">Features</a></li>
+                    <li><a href="#stats">Resources</a></li>
+                    <li><a href="#subscription">Contact</a></li>
+                </ul>
+                <!-- Action -->
+                <div class="action">
+                    <a href="#!" class="action-link">Sign in</a><a href="#!" class="btn action-btn">Sign up</a>
                 </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="content">
+                <div class="info">
+                    <p class="sub-title">Welcome to Besnik Agency</p>
+                    <h1 class="title">Discover a place you'll love to live.</h1>
+                    <p class="desc">Get the best real estate deals first, before they hit the mass market! HOT
+                        FORECLOSURE DEALS with one simple search</p>
+                    <!-- Call to action -->
+                    <a href="#!" class="btn cta">More About Us</a>
+                </div>
+                <img src="./assets/img/house illustrationhero-img.svg" alt="Discover a place you'll love to live."
+                    class="hero-img">
             </div>
-        </header>
+        </div>
         <!-- client -->
-        <div class="clients">
+        <div class="clients" id="clients">
             <div class="content">
                 <div class="row">
                     <!-- Logo -->
@@ -84,7 +85,7 @@
             </div>
         </div>
         <!-- guides -->
-        <div class="guides">
+        <div class="guides" id="guides">
             <div class="content">
                 <h2 class="sub-title">How its works?</h2>
                 <p class="desc">Everything you need to know when you're looking to buy, rent, or sell - all in one
@@ -123,7 +124,7 @@
             </div>
         </div>
         <!-- features -->
-        <div class="featured header">
+        <div class="featured header" id="featured">
             <div class="content">
                 <header>
                     <h2 class="sub-title">Featured Properties</h2>
@@ -208,7 +209,7 @@
             </div>
         </div>
         <!-- stats -->
-        <div class="stats">
+        <div class="stats" id="stats">
             <div class="content">
                 <div class="row">
                     <div class="img-block">
@@ -282,7 +283,7 @@
             </div>
         </div>
         <!-- subscription -->
-        <div class="subscription">
+        <div class="subscription" id="subscription">
             <div class="content">
                 <div class="body">
                     <div class="info">
@@ -294,49 +295,50 @@
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="content">
-                <div class="row">
-                    <div class="column">
-                        <h3 class="heading">Product</h3>
-                        <ul class="list">
-                            <li class="item">Listing</li>
-                            <li class="item">Property</li>
-                            <li class="item">Agent</li>
-                            <li class="item">Blog</li>
-                        </ul>
-                    </div>
-                    <div class="column">
-                        <h3 class="heading">Resources</h3>
-                        <ul class="list">
-                            <li class="item">Our Homes</li>
-                            <li class="item">Member Stories</li>
-                            <li class="item">Video</li>
-                            <li class="item">Free trial</li>
-                        </ul>
-                    </div>
-                    <div class="column">
-                        <h3 class="heading">Company</h3>
-                        <ul class="list">
-                            <li class="item">Partnerships</li>
-                            <li class="item">Terms of use</li>
-                            <li class="item">Privacy</li>
-                            <li class="item">Sitemap</li>
-                        </ul>
-                    </div>
-                    <div class="column">
-                        <h3 class="heading">Get in touch</h3>
-                        <p class="desc">You’ll find your next home, in any style you prefer.</p>
-                        <img src="./assets/img/social icon.svg" alt="" class="social-link">
-                    </div>
+    </main>
+    <footer>
+        <div class="content">
+            <div class="row">
+                <div class="column">
+                    <h3 class="heading">Product</h3>
+                    <ul class="list">
+                        <li class="item">Listing</li>
+                        <li class="item">Property</li>
+                        <li class="item">Agent</li>
+                        <li class="item">Blog</li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <img src="./assets/img/Logo.svg" alt="Besnik." class="logo">
-                    <p class="reference">Copyright 2020.com, All rights reserved.</p>
+                <div class="column">
+                    <h3 class="heading">Resources</h3>
+                    <ul class="list">
+                        <li class="item">Our Homes</li>
+                        <li class="item">Member Stories</li>
+                        <li class="item">Video</li>
+                        <li class="item">Free trial</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3 class="heading">Company</h3>
+                    <ul class="list">
+                        <li class="item">Partnerships</li>
+                        <li class="item">Terms of use</li>
+                        <li class="item">Privacy</li>
+                        <li class="item">Sitemap</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3 class="heading">Get in touch</h3>
+                    <p class="desc">You’ll find your next home, in any style you prefer.</p>
+                    <img src="./assets/img/social icon.svg" alt="" class="social-link">
                 </div>
             </div>
-        </footer>
-    </main>
+            <div class="row">
+                <img src="./assets/img/Logo.svg" alt="Besnik." class="logo">
+                <p class="reference">Copyright 2020.com, All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
 
 </body>
 
